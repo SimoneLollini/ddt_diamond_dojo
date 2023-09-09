@@ -42,6 +42,6 @@ class Diamonds
 
         $diamond = array_merge($upperDiamond, $lowerDiamond);
 
-        return "errore";
+        return $diamond;
     }
 }
