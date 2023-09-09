@@ -1,0 +1,11 @@
+{
+  "name": "vendor_name/ddt_diamond_dojo",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  }
+}
