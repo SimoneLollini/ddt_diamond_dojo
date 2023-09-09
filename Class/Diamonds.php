@@ -46,39 +46,4 @@ class Diamonds
 
         return $diamond;
     }
-
-
-
-    // public function create(string $lastChar): array
-    // {
-    //     $chars = range("A", strtoupper($lastChar));
-    //     //caso in cui array ["A"]
-    //     if (sizeof($chars) === 1) {
-    //         return $chars;
-    //     }
-
-    //     $upperDiamond = [];
-    //     foreach ($chars as $index => $char) {
-    //         $string = "";
-    //         if ($char === "A") {
-    //             $string = $char;
-    //         } else {
-    //             $spacesBetween = str_repeat(" ", $index);
-    //             $string = $char . $spacesBetween . $char;
-    //         }
-    //         $nInitialSpaces = (count($chars) - $index) - 1;
-    //         $initialSpaces = str_repeat(" ", $nInitialSpaces);
-
-    //         $upperDiamond[] = $initialSpaces . $string;
-    //     }
-    //     $lowerDiamond = array_reverse($upperDiamond);
-    //     //rimuovo la prima riga (altrimenti sarebbe duplicata)
-    //     array_shift($lowerDiamond);
-
-    //     $diamond = array_merge($upperDiamond, $lowerDiamond);
-
-    //     var_dump("diamond '$lastChar' ", $diamond);
-
-    //     return $diamond;
-    // }
 }
